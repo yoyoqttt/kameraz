@@ -48,7 +48,7 @@ const MapComponent = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading Map ...</p>;
+    return <p>Loading Map . to nexrt..</p>;
   }
 
   
