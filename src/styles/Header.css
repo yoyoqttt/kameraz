@@ -1,0 +1,45 @@
+.header { font-family: Arial, sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+               color: white;
+               padding: 10px 0;
+           }
+           
+           .header-content {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               max-width: 1200px;
+               margin: 0 auto;
+               padding: 0 20px;
+           }
+           
+           .header-logo {
+               text-decoration: none;
+               color: white;
+               font-weight: bold;
+               font-size: 1.5em;
+           }
+           
+           .header-nav {
+               display: flex;
+           }
+           
+           .header-nav a, .header-nav button {
+               color: white;
+               text-decoration: none;
+               margin-left: 20px;
+               padding: 8px 12px;
+               border: none;
+               background-color: transparent;
+              cursor: pointer;
+              border-radius: 5px;
+           }
+           
+            .header-nav a:hover ,.header-nav button:hover{
+                background-color: rgba(249, 249, 249, 0.784);
+                color: blue;
+           }
+           
+           .user-name{
+               margin-right: 10px;
+           }

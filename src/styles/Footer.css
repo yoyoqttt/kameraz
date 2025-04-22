@@ -1,0 +1,15 @@
+.footer {
+    background: linear-gradient(#141e30, #243b55);
+               color: white;
+               text-align: center;
+               padding: 20px 0;
+               position: relative;
+               bottom: 0;
+               width: 100%;
+           }
+           
+           .footer-content {
+               max-width: 1200px;
+               margin: 0 auto;
+               padding: 0 20px;
+           }
