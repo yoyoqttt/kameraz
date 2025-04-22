@@ -50,7 +50,7 @@ return (
 
  
 
-                      <label>Name</label>
+                      <label>Name</label><br/><br/>
                        <input
                           type="text"
                           value={name}
@@ -60,7 +60,7 @@ return (
                            </div>
                 )}
               <div className="auth-form-group">
-                  <label>Email</label>
+                  <label>Email</label><br/><br/>
                   <input
                       type="email"
                       value={email}
@@ -69,7 +69,7 @@ return (
                   />
               </div>
           <div className="auth-form-group">
-               <label>Password</label>
+               <label>Password</label><br/><br/>
               <input
                   type="password"
                   value={password}
